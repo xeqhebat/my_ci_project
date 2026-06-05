@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-ci-project"
+version = "0.1.0"
+description = "ululu"
+authors = ["xeqhebat <13_xeqhebat@iux.local>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.15.16"
+pytest = "^9.0.3"
+pytest-cov = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
