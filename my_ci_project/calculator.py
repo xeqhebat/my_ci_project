@@ -5,7 +5,7 @@ def add(a: float, b: float) -> float:
 
 def divide(a: float, b: float) -> float:
     """Делит a на b. При делении на ноль возвращает None"""
-    if b == 0:
+    if b == 0
         raise ValueError("На ноль делить нельзя")
     return a / b
 
